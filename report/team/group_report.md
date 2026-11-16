@@ -24,7 +24,11 @@ Workflow thực hiện các bước cố định bằng Python: đọc claim qua
 
 ### B — Single agent
 
-[Nhóm bổ sung mô tả shape single sau khi tích hợp và kiểm chứng.]
+Single Agent sử dụng vòng ReAct có giới hạn tối đa 8 bước. Mỗi lần quyết định được tính vào `Budget`; agent chỉ được gọi read tool vì `run_react` chạy với `worker=True`. Luồng chính là đọc claim qua `get_claim_view`, dùng `lookup_order` để kiểm tra quyền sở hữu và lấy dữ liệu có cấu trúc, sau đó gọi `compute_compensation`. Agent không lấy số ngày trễ hoặc trạng thái hư hỏng từ ticket, nên tránh được trường hợp người dùng nói quá hoặc chèn chỉ dẫn như “ignore policy”.
+
+Sau vòng ReAct, code của shape lấy quote và gọi `durability.issue_refund` với toàn bộ entitlement. Host tiếp tục kiểm tra approval, trần hoàn tiền theo đơn và idempotency trước khi ghi ledger. Shape truyền `crash_at`; nếu xảy ra `InjectedCrash`, trace được ghi rồi exception được ném lại để lần resume không tạo refund thứ hai. Trace chỉ ghi `agent_stop`, quote đã lọc và kết quả cổng refund; không ghi raw claim, ticket, header, số điện thoại, địa chỉ hoặc internal note.
+
+Trên public benchmark, Single Agent đạt 70/70 trial: pass rate `1.000`, pass^5 `1.000`, seed variance `0`, cost/success mô phỏng `29.19 VND`, mean/p95 steps `2.50/3`.
 
 ### C — Orchestrator
 

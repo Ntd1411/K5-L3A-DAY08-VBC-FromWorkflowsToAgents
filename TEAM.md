@@ -12,7 +12,7 @@
 | STT | Họ tên           | MSSV        | Email                      | GitHub                          | Vai trò                |
 | --: | ---------------- | ----------- | -------------------------- | ------------------------------- | ---------------------- |
 |   1 | Nguyễn Xuân Hùng | 2A202603599 | Xuanhung17032003@gmail.com | https://github.com/XuanHung1703 | orchestrator + handoff |
-|   2 | Nguyễn Tuấn Dũng | 2A2026033559 | 26ai.dungnt13@vinuni.edu.vn | https://github.com/Ntd1411 | single agent |
+|   2 | Nguyễn Tuấn Dũng | 2A202603559 | 26ai.dungnt13@vinuni.edu.vn | https://github.com/Ntd1411 | single agent |
 |   3 | Trịnh Quốc Đạt | 2A202603581 | 26ai.dattq2@vinuni.edu.vn | https://github.com/Trinh-Quoc-Dat | workflow |
 
 Gợi ý chia vai:
