@@ -9,10 +9,10 @@
 
 ## Thành viên
 
-| STT | Họ tên | MSSV | Email | GitHub | Vai trò |
-| --: | ------ | ---- | ----- | ------ | ------- |
-|   1 |        |      |       |        |         |
-|   2 |        |      |       |        |         |
+| STT | Họ tên           | MSSV        | Email                      | GitHub                          | Vai trò                |
+| --: | ---------------- | ----------- | -------------------------- | ------------------------------- | ---------------------- |
+|   1 |                  |             |                            |                                 |                        |
+|   2 | Nguyễn Xuân Hùng | 2A202603599 | Xuanhung17032003@gmail.com | https://github.com/XuanHung1703 | orchestrator + handoff |
 
 Gợi ý chia vai:
 
@@ -24,8 +24,8 @@ Gợi ý chia vai:
 `python -m lab8.check_submission` đọc bảng này bằng máy: giữ nguyên tiêu đề `## Bảng đóng góp` và các cột. Mỗi người một dòng: commit có nội dung và ít nhất một test đã thêm hoặc sửa.
 
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
-| --- | --- | --- | --- |
-| | | | |
+| ----- | --- | ------ | --------------------- |
+|       |     |        |                       |
 
 ## Cá nhân
 
