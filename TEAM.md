@@ -2,9 +2,9 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: VBC
 - Lớp: L3A
-- Repo nhóm: `K5-L3A-DAY08-TenNhom-FromWorkflowsToAgents` (xem [SUBMISSION.md](SUBMISSION.md))
+- Repo nhóm: `K5-L3A-DAY08-VBC-FromWorkflowsToAgents` (xem [SUBMISSION.md](SUBMISSION.md))
 - URL repo, nhánh nộp, commit chốt:
 
 ## Thành viên
@@ -13,6 +13,10 @@
 | --: | ---------------- | ----------- | -------------------------- | ------------------------------- | ---------------------- |
 |   1 |                  |             |                            |                                 |                        |
 |   2 | Nguyễn Xuân Hùng | 2A202603599 | Xuanhung17032003@gmail.com | https://github.com/XuanHung1703 | orchestrator + handoff |
+| STT | Họ tên | MSSV | Email | GitHub | Vai trò |
+| --: | ------ | ---- | ----- | ------ | ------- |
+|   1 | Nguyễn Tuấn Dũng | 2A2026033559 | 26ai.dungnt13@vinuni.edu.vn | https://github.com/Ntd1411 | single agent |
+|   2 |        |      |       |        |         |
 
 Gợi ý chia vai:
 
@@ -26,6 +30,9 @@ Gợi ý chia vai:
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | ----- | --- | ------ | --------------------- |
 |       |     |        |                       |
+| --- | --- | --- | --- |
+| Trịnh Quốc Đạt | workflow | a4ebc01 | test_unknown_claim_fails_without_refund_and_writes_trace |
+| Nguyễn Tuấn Dũng | Single agent | 49a0003 | `src/tests/test_single_agent_student.py` |
 
 ## Cá nhân
 
