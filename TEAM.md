@@ -28,7 +28,7 @@ Gợi ý chia vai:
 | ----- | --- | ------ | --------------------- |
 | Trịnh Quốc Đạt | workflow | a4ebc01 | test_unknown_claim_fails_without_refund_and_writes_trace |
 | Nguyễn Tuấn Dũng | Single agent | 49a0003 | `src/tests/test_single_agent_student.py` |
-
+| Nguyễn Xuân Hùng | orchestrator | 34897f7 |src/tests/test_orchestrator_handoff.py|
 ## Cá nhân
 
 Mỗi thành viên đồng thời tạo một báo cáo riêng trong `report/` theo dạng:
